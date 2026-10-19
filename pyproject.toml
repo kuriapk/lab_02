@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "streamstats"
+version = "0.1.0"
+description = "Потоковый анализатор событий"
+authors = ["Кирилл Петров"]
+packages = [{ include = "streamstats", from = "src" }]
+
+[tool.poetry.dependencies]
+python = ">=3.13,<4.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4"
+ruff = "^0.14"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

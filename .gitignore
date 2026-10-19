@@ -1,0 +1,19 @@
+# Виртуальное окружение.
+.venv/
+
+# Служебные файлы Python.
+__pycache__/
+*.pyc
+
+# Кэш инструментов проверки.
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Настройки PyCharm.
+.idea/
+
+# Созданные отчёты.
+report.json
+result.json
+result_jsonl.json
