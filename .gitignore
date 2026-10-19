@@ -17,3 +17,8 @@ __pycache__/
 report.json
 result.json
 result_jsonl.json
+
+# Локальные файлы, не предназначенные для репозитория.
+lab2.zip
+output_path
+poetry.toml
